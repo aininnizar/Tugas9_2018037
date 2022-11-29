@@ -130,8 +130,38 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
-                        android:text="Selamat datang di aplikasi Antasalam Komputer,Toko komputer online ini dihadirkan untuk mempermudah anda mengakses segala info produk dan layanan jasa kami."
+                        android:text="@string/Deskripsi"
                         android:textColor="@color/white" />
+
+                    <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="0.5">
+                            <TextView android:id="@+id/textView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/Shop"
+                                android:textColor="@color/white"
+                                android:layout_marginStart="10dp" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Buy Now"
+                            android:layout_marginEnd="15dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
 
                     <TableRow
                         android:layout_width="match_parent"

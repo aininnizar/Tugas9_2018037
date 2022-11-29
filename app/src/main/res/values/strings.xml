@@ -2,6 +2,8 @@
     <string name="app_name">Antasalam Komputer</string>
     <string name="Open">Open</string>
     <string name="Close">Close</string>
+    <string name="Deskripsi">Selamat datang di aplikasi Antasalam Komputer,Toko komputer online ini dihadirkan untuk mempermudah anda mengakses segala info produk dan layanan jasa kami.Selamat datang di aplikasi Antasalam Komputer,Toko komputer online ini dihadirkan untuk mempermudah anda mengakses segala info produk dan layanan jasa kami.</string>
+    <string name="Shop">Silahkan Berbelanja</string>
     <string-array name="laptop">
         <item>Legion</item>
         <item>MSI</item>
